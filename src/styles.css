@@ -168,6 +168,7 @@
     }
     @media (max-width: 620px) {
       .wrap { width: min(100% - 28px,1120px); }
+      h1 { font-size: clamp(2.1rem, 7vw, 3.15rem); }
       .nav { min-height: 66px; }
       .nav-links { display: flex; gap: 0; }
       .nav-links a:not(.contact-link), .nav-cta { display: none; }
