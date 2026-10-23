@@ -23,7 +23,7 @@
       margin: 0;
       background: var(--rose-50);
       color: var(--text);
-      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       line-height: 1.6;
     }
     button, input { font: inherit; }
@@ -56,7 +56,7 @@
     .hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; gap: 44px; }
     .eyebrow { display: inline-flex; align-items: center; gap: 8px; color: var(--wine-500); background: var(--rose-100); border: 1px solid var(--rose-200); border-radius: 999px; padding: 7px 13px; font-size: .82rem; font-weight: 700; }
     h1, h2, h3, p { margin-top: 0; }
-    h1 { color: var(--wine-900); max-width: 650px; margin: 19px 0 18px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.04; letter-spacing: -.055em; }
+    h1 { color: var(--wine-900); max-width: 650px; margin: 19px 0 18px; font-family: "Segoe UI", Arial, sans-serif; font-size: clamp(2.5rem, 5.5vw, 4.25rem); font-weight: 800; line-height: 1.08; letter-spacing: -.035em; text-wrap: balance; }
     h1 em { color: var(--wine-500); font-weight: 500; }
     .hero-copy { max-width: 520px; color: var(--muted); font-size: 1.08rem; margin-bottom: 26px; }
     .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
@@ -80,7 +80,7 @@
     .section-white { background: var(--cream); border-block: 1px solid var(--line); }
     .section-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 28px; }
     .section-kicker { color: var(--wine-500); font-size: .8rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; margin-bottom: 7px; }
-    h2 { color: var(--wine-900); font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; letter-spacing: -.04em; margin-bottom: 9px; }
+    h2 { color: var(--wine-900); font-family: "Segoe UI", Arial, sans-serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 750; line-height: 1.12; letter-spacing: -.025em; text-wrap: balance; margin-bottom: 9px; }
     .section-desc { color: var(--muted); max-width: 570px; margin-bottom: 0; }
     .search-box { position: relative; width: min(280px, 100%); flex: 0 0 auto; }
     .search-box span { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--wine-400); }
